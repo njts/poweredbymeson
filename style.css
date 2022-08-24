@@ -72,13 +72,13 @@ div#app .search-wrapper input::-webkit-input-placeholder {
 }
 div#app .wrapper {
   display: flex;
-  max-width: 444px;
+  max-width: 900px;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 1rem;
 }
 div#app .card {
   box-shadow: #54bab9 0px 2px 4px 0px, #18978f 0px 2px 16px 0px;
-  max-width: 900px;
+  max-width: 128px;
   margin: 12px;
   position: relative;
   left: 25px;
