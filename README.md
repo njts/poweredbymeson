@@ -2,7 +2,7 @@
 A list of projects that use Meson CDN
 
 ## Can't find your project in the list? 
-###You don't need to wait for us to add it. You can add your project here by submitting a pull request. 
+### You don't need to wait for us to add it. You can add your project here by submitting a pull request. 
 
 **Follow the steps below:**
 
