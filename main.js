@@ -106,3 +106,5 @@ const app = new Vue({
 		}
 	}
 });
+
+document.getElementById("year").innerHTML = (new Date().getFullYear());
