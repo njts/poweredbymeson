@@ -90,6 +90,18 @@ const app = new Vue({
 				'https://bca.network/',
 				'art-tech brand',
 				'https://bca.network/favicon.ico'),
+			
+			new Post(
+				'Koii Network',
+				'https://www.koii.network/',
+				'web3',
+				'https://www.koii.network/static/KoiiNetwork-logo_64.svg'),
+			
+			new Post(
+				'Permacast',
+				'https://permacast.dev/#/',
+				'podcast',
+				'https://permacast.dev/favicon.ico'),
 
 		]
 	},
