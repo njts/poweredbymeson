@@ -13,13 +13,13 @@ body {
 }
 
 a:link {
-  color: cyan;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: darkcyan;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
