@@ -15,7 +15,7 @@
     <script
       defer
       data-domain="poweredbymeson.com"
-      src="https://app.axshelf.com/js/app.js"
+      src="https://app .axshelf.com/js/app.js"
     ></script>
   </head>
   <body>
@@ -44,11 +44,14 @@
             <a href="./ind-x.html" rel="prefetch">
               <img
                 id="image"
-                class="mesonicon"
+                class="mesonicon cerchio trigger-audio js-cursor-wrap"
                 src="./images/meson-favicon-inverted.png"
                 alt="meson-favicon-inverted"
               />
             </a>
+            <audio id="sound-hover" style="display:none;" controls="controls" preload="auto">
+              <source src="./effect.ogg"></source>
+           </audio>
             <a href="https://meson.network" target="_parent">Meson CDN</a> to
             distribute their content worldwide
           </h1>
@@ -139,6 +142,9 @@
       </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.9/vue.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script><script  src="./script.js"></script>
     <script src="./main.js"></script>
+    <script src="./extra.js"></script>
   </body>
 </html>
