@@ -9,6 +9,7 @@ body {
   margin-bottom: 16px;
   margin-left: 16px;
   background: #1b2430;
+  cursor: url(cursor.png), auto;
 }
 
 a:link {
@@ -171,3 +172,4 @@ div#app .box {
   }
 
 }
+
