@@ -173,3 +173,18 @@ div#app .box {
 
 }
 
+#cursor {
+  position: absolute;
+  left: -480px;
+  top: -404px;
+  will-change: transform;
+  transform: translate(-999px, -999px);
+  pointer-events: none;
+}
+#cursor img {
+  will-change: transform;
+  transition: transform .1s linear;
+  filter: drop-shadow(8px 8px 8px rgba(255, 5, 5, 0.287));
+  
+}
+
