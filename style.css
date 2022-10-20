@@ -132,6 +132,7 @@ div#app .box {
   margin-right: 0px;
   border-radius: 25%;
   -webkit-animation: shine 6s linear 0s infinite alternate;
+  cursor: url(cursorx.png), auto;
 }
 
 @-webkit-keyframes shine {
@@ -152,7 +153,6 @@ div#app .box {
   margin-right: 0px;
   border-radius: 25%;
   -webkit-animation: shine-egg 6s linear 0s infinite alternate, beat 0.35s;
-
 }
 
 @-webkit-keyframes shine-egg {
