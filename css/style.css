@@ -182,10 +182,6 @@ div#app .box {
   pointer-events: none;
 }
 
-@for $i from 1 through 500
-  .cursor:nth-child(#{$i})
-    top: random(1000) + px
-    left: random(1000) + px
 
 #cursor img {
   will-change: transform;
