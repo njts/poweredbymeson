@@ -138,6 +138,27 @@ div#app .box {
   -webkit-animation: shine 6s linear 0s infinite alternate;
   cursor: url(cursorx.png), auto;
 }
+mesonicon {
+  width: 40px;
+  display: inline;
+  margin-right: 0px;
+  border-radius: 25%;
+  -webkit-animation: shine 6s linear 0s infinite alternate;
+  cursor: url(cursorx.png), auto;
+}
+
+.mesonicon2 {
+  width: 40px;
+  display: inline;
+  margin-right: 0px;
+  border-radius: 25%;
+  -webkit-animation: beat .25s 2, shine 6s linear 0s infinite alternate;
+  cursor: url(cursorx.png), auto;
+}
+
+@keyframes beat{
+	to { transform: scale(.6); }
+}
 
 @-webkit-keyframes shine {
   0% {
@@ -156,6 +177,8 @@ div#app .box {
   display: inline;
   margin-right: 0px;
   border-radius: 25%;
+  cursor: url(cursorx.png), auto;
+  content:url(http://placehold.it/350x150);
   -webkit-animation: shine-egg 6s linear 0s infinite alternate, beat 0.35s;
 }
 
@@ -192,5 +215,9 @@ div#app .box {
   transition: transform .1s linear;
   filter: drop-shadow(8px 8px 8px rgba(255, 5, 5, 0.287));
   
+}
+
+.egg {
+  background-color: transparent;
 }
 

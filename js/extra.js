@@ -180,3 +180,15 @@ for (var i = 0; i < numOfSquares; i++) {
 		'transform': 'rotate('+ rNum +'2deg)'
 	})
 }
+
+$('.addAddress').on('dblclick', function() {
+  document.getElementById("image").src="./css/thanos-gauntlet.gif";
+
+});
+
+
+function func() {
+  document.getElementById("image").className += " mesonicon-easteregg";
+  document.getElementById("image").src="./images/meson-favicon-inverted.png";
+  
+}

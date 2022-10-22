@@ -31,7 +31,7 @@
         </a>
       </div>
     </header>
-
+    
     <section class="text-gray-600 body-font">
       <div id="cursor"><img alt="Cursor Hand" src="./ui-assets/pingghost.svg"></div>
       <div class="container px-8 py-20 mx-auto">
@@ -41,21 +41,23 @@
           <h1
             class="flex-grow sm:pr-16 text-2xl font-medium title-font text-yellow-500"
           >
-            Currently 13 projects use
+            Currently 15 projects use
             <br />
-            <a href="./ind-x.html" rel="prefetch">
+            
               <img
                 id="image"
-                class="mesonicon cerchio trigger-audio js-cursor-wrap"
+                ondblclick="variable = setTimeout(func, 1800)"
+                onclick="this.className='mesonicon2'"
+                class="mesonicon cerchio trigger-audio addAddress js-cursor-wrap"
                 src="./images/meson-favicon-inverted.png"
-                alt="meson-favicon-inverted"
               />
-            </a>
+              <egg class="egg">
+              </egg>
             <audio id="sound-hover" style="display:none;" controls="controls" preload="auto">
               <source src="./ui-assets/effect.ogg"></source>
            </audio>
             <a href="https://meson.network" target="_parent">Meson CDN</a> to
-            distribute their content worldwide
+            distribute content worldwide
           </h1>
           <a
             href="https://m-cdn.io/register"
@@ -66,6 +68,7 @@
         </div>
       </div>
     </section>
+    
     <div id="app">
       <div class="search-wrapper">
         <input type="text" v-model="search" placeholder="🔎 Search Project.." />
