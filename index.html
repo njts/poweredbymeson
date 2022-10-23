@@ -43,7 +43,6 @@
           >
             Currently 15 projects use
             <br />
-            
               <img
                 id="image"
                 ondblclick="variable = setTimeout(func, 1800)"
@@ -68,7 +67,6 @@
         </div>
       </div>
     </section>
-    
     <div id="app">
       <div class="search-wrapper">
         <input type="text" v-model="search" placeholder="🔎 Search Project.." />
@@ -76,7 +74,7 @@
       <div class="wrapper">
         <div class="card" v-for="post in filteredList">
           <a v-bind:href="post.link" target="_blank">
-            <img v-bind:src="post.img" loading="layz" alt="" /> {{ post.title }}
+            <img v-bind:src="post.img" loading="layz" alt="projects" /> {{ post.title }}
             <small>{{ post.type }}</small>
           </a>
         </div>
@@ -150,6 +148,5 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
     <script src="./js/main.js"></script>
-    <script src="./js/extra.js"></script>
   </body>
 </html>
